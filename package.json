@@ -1,0 +1,30 @@
+{
+  "name": "essence-fires",
+  "version": "1.0.0",
+  "description": "异火 - 最快的开发组件工具",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/essence-fires.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/essence-fires/issues"
+  },
+  "homepage": "https://github.com/liurongqing/essence-fires#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "esbuild": "^0.12.15"
+  },
+  "dependencies": {
+    "antd": "^4.16.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
