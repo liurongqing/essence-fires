@@ -5,8 +5,9 @@ require('esbuild').serve(
 		host: '127.0.0.1'
 	},
 	{
-		entryPoints: ['src/main.tsx'],
+		entryPoints: ['src/index.tsx'],
 		outdir: 'public/js',
+		inject: ['src/component/react-shim.ts'],
 	  bundle: true
 	}
 ).then(server => {
